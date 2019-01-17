@@ -1,0 +1,30 @@
+{
+  "name": "event-poster",
+  "version": "1.0.0",
+  "description": "App showcasing api and react skillzzz",
+  "main": "server.js",
+  "engines": {
+    "npm": "5.6.0",
+    "node": "9.4.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "heroku-postbuild": "cd front-end && npm install --only=dev && npm install && npm run build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bluebird": "^3.5.2",
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.4",
+    "dotenv": "^6.1.0",
+    "express": "^4.16.3",
+    "express-session": "^1.15.6",
+    "mongodb": "^3.1.8",
+    "mongoose": "^5.3.5",
+    "path": "^0.12.7"
+  }
+}
